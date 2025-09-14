@@ -13,9 +13,15 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+header_pages:
+  - about.md
+  - archive.md
+
 titles_from_headings:
   strip_title: true
   collections: true
+
 defaults:
   - scope:
       path: ""
